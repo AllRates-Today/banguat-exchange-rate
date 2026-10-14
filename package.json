@@ -1,6 +1,6 @@
 {
   "name": "banguat-exchange-rate",
-  "version": "1.3.11",
+  "version": "1.3.12",
   "description": "Official Banco de Guatemala (Guatemala) daily exchange rates — 26 currencies vs GTQ, history since 2004. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "banguat",
@@ -9,6 +9,8 @@
     "guatemala",
     "exchange-rate",
     "exchange-rates",
+    "exchangerate",
+    "exchange rate",
     "gtq-exchange-rate",
     "currency",
     "forex",
