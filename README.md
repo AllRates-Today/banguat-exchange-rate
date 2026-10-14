@@ -103,10 +103,10 @@ const pair = await getRate('USD', 'GTQ', { apiKey: 'art_live_...' });
 {
   bank: 'banguat',
   name: 'Banco de Guatemala',
-  rate_date: '2026-10-12',   // Banco de Guatemala's own publication date
+  rate_date: '2026-10-14',   // Banco de Guatemala's own publication date
   source: 'USD',
   target: 'GTQ',
-  rate: 7.64157,
+  rate: 7.63988,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -131,9 +131,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'banguat',
   name: 'Banco de Guatemala',
-  rate_date: '2026-10-12',
+  rate_date: '2026-10-14',
   rates: [
-    { "base": "USD", "quote": "GTQ", "type": "reference", "value": 7.64157 },
+    { "base": "USD", "quote": "GTQ", "type": "reference", "value": 7.63988 },
     // … the rest of the published table (26 currencies vs GTQ)
   ],
   disclaimer: '…'
@@ -173,7 +173,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'banguat-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'GTQ', from: '2026-01-01', to: '2026-10-12' },
+  { source: 'USD', target: 'GTQ', from: '2026-01-01', to: '2026-10-14' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -186,11 +186,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'GTQ',
   from: '2026-01-01',
-  to: '2026-10-12',
+  to: '2026-10-14',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-12', rate: 7.64157, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-14', rate: 7.63988, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
