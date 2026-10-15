@@ -42,11 +42,61 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by Banco de Guatemala — 1 rate. Updated 2026-10-14.
+Published **2026-10-15** by Banco de Guatemala — 51 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| USD | GTQ | reference | 7.63988 |
+| EUR | USD | buy | 1.1209 |
+| EUR | USD | sell | 1.121 |
+| GBP | USD | buy | 1.3256 |
+| GBP | USD | sell | 1.3257 |
+| USD | ARS | buy | 1514.06812 |
+| USD | ARS | sell | 1514.4248 |
+| USD | BRL | buy | 5.0482 |
+| USD | BRL | sell | 5.0494 |
+| USD | CAD | buy | 1.4187 |
+| USD | CAD | sell | 1.4188 |
+| USD | CHF | buy | 0.8289 |
+| USD | CHF | sell | 0.829 |
+| USD | CNY | buy | 6.6908 |
+| USD | CNY | sell | 6.691 |
+| USD | COP | buy | 3168.75 |
+| USD | COP | sell | 3170.3 |
+| USD | CRC | buy | 449.12 |
+| USD | CRC | sell | 453.25 |
+| USD | DKK | buy | 6.6683 |
+| USD | DKK | sell | 6.6687 |
+| USD | DOP | buy | 61 |
+| USD | DOP | sell | 61.574 |
+| USD | GTQ | reference | 7.6414 |
+| USD | HKD | buy | 7.8467 |
+| USD | HKD | sell | 7.8469 |
+| USD | HNL | buy | 26.8943 |
+| USD | HNL | sell | 27.0288 |
+| USD | INR | buy | 95.05 |
+| USD | INR | sell | 95.06 |
+| USD | JPY | buy | 157.88 |
+| USD | JPY | sell | 157.89 |
+| USD | KRW | buy | 1345.8 |
+| USD | KRW | sell | 1346.5 |
+| USD | MXN | buy | 18.486 |
+| USD | MXN | sell | 18.49 |
+| USD | MYR | buy | 4.08 |
+| USD | MYR | sell | 4.0845 |
+| USD | NIO | buy | 36.6243 |
+| USD | NIO | sell | 36.6243 |
+| USD | NOK | buy | 9.488 |
+| USD | NOK | sell | 9.4899 |
+| USD | PKR | buy | 276.925 |
+| USD | PKR | sell | 277.1 |
+| USD | SEK | buy | 9.9567 |
+| USD | SEK | sell | 9.9585 |
+| USD | SVC | buy | 8.75 |
+| USD | SVC | sell | 8.75 |
+| USD | TWD | buy | 32.27 |
+| USD | TWD | sell | 32.36 |
+| XDR | USD | buy | 1.354 |
+| XDR | USD | sell | 1.354 |
 
 Source: [Official rates published by BANGUAT, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/banguat/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
