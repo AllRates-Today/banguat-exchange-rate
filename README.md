@@ -42,7 +42,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Banco de Guatemala — 51 rates. Updated 2026-10-15.
+Published **2026-10-16** by Banco de Guatemala — 51 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -68,7 +68,7 @@ Published **2026-10-15** by Banco de Guatemala — 51 rates. Updated 2026-10-15.
 | USD | DKK | sell | 6.6687 |
 | USD | DOP | buy | 61 |
 | USD | DOP | sell | 61.574 |
-| USD | GTQ | reference | 7.6414 |
+| USD | GTQ | reference | 7.64572 |
 | USD | HKD | buy | 7.8467 |
 | USD | HKD | sell | 7.8469 |
 | USD | HNL | buy | 26.8943 |
