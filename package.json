@@ -1,6 +1,6 @@
 {
   "name": "banguat-exchange-rate",
-  "version": "1.3.18",
+  "version": "1.3.19",
   "description": "Official Banco de Guatemala (Guatemala) daily exchange rates — 26 currencies vs GTQ, history since 2004. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "banguat",
@@ -26,7 +26,17 @@
     "central-bank",
     "official-rates",
     "api",
-    "typescript"
+    "typescript",
+    "money",
+    "convert",
+    "conversion",
+    "exchange",
+    "rate",
+    "accounting",
+    "utilities",
+    "number",
+    "cart",
+    "ecommerce"
   ],
   "homepage": "https://allratestoday.com/central-bank-rates-api/banguat/",
   "repository": {
