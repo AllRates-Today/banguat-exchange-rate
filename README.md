@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-26 by Banco de Guatemala — 51 rates. Updated 2026-10-26.</summary>
+<summary>Table as text: published 2026-10-27 by Banco de Guatemala — 51 rates. Updated 2026-10-27.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -73,7 +73,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | USD | DKK | sell | 6.6687 |
 | USD | DOP | buy | 61 |
 | USD | DOP | sell | 61.574 |
-| USD | GTQ | reference | 7.63622 |
+| USD | GTQ | reference | 7.63979 |
 | USD | HKD | buy | 7.8467 |
 | USD | HKD | sell | 7.8469 |
 | USD | HNL | buy | 26.8943 |
