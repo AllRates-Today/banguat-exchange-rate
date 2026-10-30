@@ -24,84 +24,19 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Banco de Guatemala table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/banguat?source=USD&target=GTQ"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/banguat').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Banco de Guatemala table](https://allratestoday.com/api/open/central-bank/banguat/table.svg)](https://allratestoday.com/central-bank-rates-api/banguat/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by Banco de Guatemala — 51 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by Banco de Guatemala — 1 rate. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EUR | USD | buy | 1.1209 |
-| EUR | USD | sell | 1.121 |
-| GBP | USD | buy | 1.3256 |
-| GBP | USD | sell | 1.3257 |
-| USD | ARS | buy | 1514.06812 |
-| USD | ARS | sell | 1514.4248 |
-| USD | BRL | buy | 5.0482 |
-| USD | BRL | sell | 5.0494 |
-| USD | CAD | buy | 1.4187 |
-| USD | CAD | sell | 1.4188 |
-| USD | CHF | buy | 0.8289 |
-| USD | CHF | sell | 0.829 |
-| USD | CNY | buy | 6.6908 |
-| USD | CNY | sell | 6.691 |
-| USD | COP | buy | 3168.75 |
-| USD | COP | sell | 3170.3 |
-| USD | CRC | buy | 449.12 |
-| USD | CRC | sell | 453.25 |
-| USD | DKK | buy | 6.6683 |
-| USD | DKK | sell | 6.6687 |
-| USD | DOP | buy | 61 |
-| USD | DOP | sell | 61.574 |
-| USD | GTQ | reference | 7.64382 |
-| USD | HKD | buy | 7.8467 |
-| USD | HKD | sell | 7.8469 |
-| USD | HNL | buy | 26.8943 |
-| USD | HNL | sell | 27.0288 |
-| USD | INR | buy | 95.05 |
-| USD | INR | sell | 95.06 |
-| USD | JPY | buy | 157.88 |
-| USD | JPY | sell | 157.89 |
-| USD | KRW | buy | 1345.8 |
-| USD | KRW | sell | 1346.5 |
-| USD | MXN | buy | 18.486 |
-| USD | MXN | sell | 18.49 |
-| USD | MYR | buy | 4.08 |
-| USD | MYR | sell | 4.0845 |
-| USD | NIO | buy | 36.6243 |
-| USD | NIO | sell | 36.6243 |
-| USD | NOK | buy | 9.488 |
-| USD | NOK | sell | 9.4899 |
-| USD | PKR | buy | 276.925 |
-| USD | PKR | sell | 277.1 |
-| USD | SEK | buy | 9.9567 |
-| USD | SEK | sell | 9.9585 |
-| USD | SVC | buy | 8.75 |
-| USD | SVC | sell | 8.75 |
-| USD | TWD | buy | 32.27 |
-| USD | TWD | sell | 32.36 |
-| XDR | USD | buy | 1.354 |
-| XDR | USD | sell | 1.354 |
+| USD | GTQ | reference | 7.64187 |
 
 </details>
 
