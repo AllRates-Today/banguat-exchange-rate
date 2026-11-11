@@ -32,11 +32,11 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-10 by Banco de Guatemala — 1 rate. Updated 2026-11-10.</summary>
+<summary>Table as text: published 2026-11-11 by Banco de Guatemala — 1 rate. Updated 2026-11-11.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| USD | GTQ | reference | 7.63846 |
+| USD | GTQ | reference | 7.63792 |
 
 </details>
 
